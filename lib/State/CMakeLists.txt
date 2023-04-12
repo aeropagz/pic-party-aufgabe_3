@@ -1,0 +1,14 @@
+include_directories(
+    "${PROJECT_SOURCE_DIR}/lib/Game"
+    "${PROJECT_SOURCE_DIR}/lib/Player"
+    "${PROJECT_SOURCE_DIR}/lib/Card"
+    "${PROJECT_SOURCE_DIR}/lib/Util"
+)
+add_library(state
+    State.cpp 
+    Context.cpp 
+    StateGameStart.cpp 
+    StateGamePlayer.cpp
+    StateGameTurn.cpp
+    StateGameEnd.cpp
+) 

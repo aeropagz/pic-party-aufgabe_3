@@ -1,0 +1,5 @@
+add_subdirectory(Card)
+add_subdirectory(Game)
+add_subdirectory(Player)
+add_subdirectory(State)
+add_subdirectory(Util)
